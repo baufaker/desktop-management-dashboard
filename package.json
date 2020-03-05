@@ -1,0 +1,24 @@
+{
+  "name": "desktop-management-dashboard",
+  "version": "1.0.0",
+  "description": "Simple electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:osx": "electron-packager . DevDashboard --plarform=darwin --arch=x64 --icon=./icon-snews.png --overwrite"
+  },
+  "repository": "https://github.com/baufaker/desktop-management-dashboard",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^8.0.2",
+    "electron-packager": "*"
+  }
+}
