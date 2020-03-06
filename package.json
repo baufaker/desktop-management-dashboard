@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build:osx": "electron-packager . DevDashboard --plarform=darwin --arch=x64 --icon=./icon-snews.png --overwrite"
+    "build:osx": "electron-packager . DevDashboard --platform=darwin --arch=x64 --icon=./icon-snews.png --out=release-builds --overwrite",
+    "build:raspbian": "electron-packager . DevDashboard --platform=linux --arch=armv7l --icon=./icon-snews.png --out=release-builds --overwrite"
   },
   "repository": "https://github.com/baufaker/desktop-management-dashboard",
   "keywords": [
