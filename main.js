@@ -5,6 +5,7 @@ const path = require('path')
 function createWindows () {
   //get display measure reference
   let display = screen.getAllDisplays()[1];
+  // let display = screen.getPrimaryDisplay();
   let width = display.workArea.width;
   let height = display.workArea.height;
   let xRef = display.workArea.x;
